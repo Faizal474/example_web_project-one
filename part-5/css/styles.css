@@ -1,0 +1,189 @@
+/* 
+color palete
+
+dark green: #3c8453
+sandy beging: #bcaa96
+Dark gary : #222222
+light gary : #d3d4d6
+off-white : #f6f6f6
+*/
+
+
+
+
+/* Gobal style  */
+
+html{
+    font-size: 62.5%; /* 10px */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+    
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family: 'open Sans',sans-serif;
+    /* color:white; */
+    font-size: 1.5rem;
+    line-height: 1.4;
+   
+}
+
+h1,h2,h3{
+    font-family: "Caveat", cursive;
+    font-weight: 400px;
+    margin: 0;
+    
+}
+
+h1{
+    font-size: 6rem;
+    line-height: 0.8;
+}
+
+
+h2{
+    font-size: 3.5rem;
+}
+
+
+a{
+    color: #3c8453;
+}
+a:hover{
+    color: #bcaa96;
+    text-decoration:none;
+}
+
+
+footer a{
+    color:#3c8453 ;
+}
+footer a:hover{
+
+    color: #bcbcbc;
+}
+
+
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+    /* background-color: #222; */
+
+}
+
+
+   /* Home*/
+
+.home{
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column
+}
+
+.home .content-wrapper{
+    flex: 1 0 auto;
+}
+
+.content-bg{
+    background: rgb(255 255 255/0.5);
+    padding: 30px;
+}
+
+main{
+    color: white;
+}
+
+
+   /* Resume */
+
+
+
+.resume header::before{
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg );
+    height: 375px;
+    content: "";
+    display: block;
+    background-size: cover;
+}
+
+main.content-wrapper {
+    color: #222;
+}
+
+.project-item{
+    margin: 130px 0;
+}
+
+.project-item img{
+    /* display: flex;
+    justify-content:space-around; */
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+  /* Work Exprince */
+
+
+
+.work-item{
+    margin: 30px 0 ;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+
+  /* Education */
+
+
+
+.education-item{
+    margin: 30px 0;
+}
+
+.education-item p{
+    margin: 0;
+}
+
+
+    /* Footer */
+
+
+footer{
+    background-color:#222;
+    color: #d3d4d6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.socials{
+    list-style: none;
+    
+    
+}
+.socials li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.socials img{
+    width: 32px;
+}
+
+.socials img:hover {
+    opacity: 0.5;
+
+}

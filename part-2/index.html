@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="module" src="./backpack.js"></script>
+    <script type="module" src="./script.js"></script>
+
+    <style>
+        .highlight {
+            outline: 2px solid red;
+        }
+    </style>
+</head>
+
+<body id="something">
+    something Else Here
+    <ul>
+        <li id="myitemone">One</li>
+        <li class="new-highlight highlight" title="my title">Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+        <li>Six</li>
+    </ul>
+    <p>Paragraph 1</p>
+    <h1>Heading 1</h1>
+    <p id="myparagraph" class="highlight"
+        style="background-color: rgb(61, 241, 76); color: brown;outline: 2px solid green;">
+        Paragraph with children
+        <em>Emphasized text <strong>Strong text</strong></em>
+
+    </p>
+    <div>
+        <article>
+            <h2> This is the Article Heading</h2>
+            <aside>
+                <section>
+                    <h3>this is a section</h3>
+                    <ul>
+                        <li>menu 1</li>
+                        <li id="menu2">menu 2</li>
+                        <li>menu 3</li>
+                        <li>menu 4</li>
+
+                    </ul>
+                </section>
+            </aside>
+        </article>
+    </div>
+</body>
+
+</html>
